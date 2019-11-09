@@ -1,1 +1,1 @@
-A javascript calculator assign,ent from the Odin Project.
+A javascript calculator assignment from The Odin Project.
