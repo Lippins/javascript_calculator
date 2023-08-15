@@ -1,113 +1,114 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background: #010b13;
-    height: 100vh;
+body {
+  background: #010b13;
+  height: 100vh;
 }
 
-header{
-    background: #030b11;
-    color: #ffffff;
-    margin-bottom: 10px;
-    font: bold 20px "PT Mono", monospace;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header {
+  background: #030b11;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font: bold 20px "PT Mono", monospace;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-main{
-    background: #aaa9ad;
-    border-radius: 5px;
-    border: 6px outset #aaa9ad; 
-    box-shadow: 2px 2px 4px #101010 inset,
-    -3px -3px 4px #101010 inset;
-    width: 300px;
-    height: 460px;
-    margin: auto;
-    padding: 20px;
-    margin-bottom: 30px;
+main {
+  background: #aaa9ad;
+  border-radius: 5px;
+  border: 6px outset #aaa9ad;
+  box-shadow: 2px 2px 4px #101010 inset, -3px -3px 4px #101010 inset;
+  width: 300px;
+  height: 460px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
-#display_Screen{
-    background: #2F4F4F;
-    color: #ffffff;
-    font: bold 200% "PT Mono", monospace;
-    text-align: right;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px #101010 inset,
-    -2px -2px 4px #101010 inset;
-    box-sizing: border-box; 
-    width: 310px;
-    height: 80px;
-    padding: 35px 10px 10px 10px;
-    margin: auto;
-    margin-bottom: 15px;
+#display_Screen {
+  background: #2f4f4f;
+  color: #ffffff;
+  font: bold 200% "Orbitron", sans-serif;
+  color: #d4d3d5;
+  text-align: right;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #101010 inset, -2px -2px 4px #101010 inset;
+  box-sizing: border-box;
+  width: 310px;
+  height: 80px;
+  padding: 35px 10px 10px 10px;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
-#calc_buttons{
-    width: 310px;
-    height: 380px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#calc_buttons {
+  width: 310px;
+  height: 380px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-#calc_buttons button{
-    font-family:'PT Mono', monospace;
-    font-size: 150%;
-    font-weight: bold;
-    width: 65px;
-    height: 60px;
-    display: inline-block;
-    background: #ffffff;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px #101010;
+#calc_buttons button {
+  /* font-family: "PT Mono", monospace; */
+  font-family: "Orbitron", sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  width: 65px;
+  height: 60px;
+  display: inline-block;
+  background: #ffffff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #101010;
 }
 
 #calc_buttons .symbols,
-#calc_buttons .backspace{
-    background: #0a7e8c;
-    color: #ffffff;
+#calc_buttons .backspace {
+  background: #0a7e8c;
+  color: #ffffff;
 }
 
 #calc_buttons .advanced,
 #calc_buttons .clear {
-    background: #009150;
-    color: #ffffff;
+  background: #009150;
+  color: #ffffff;
 }
 
-#calc_buttons .result{
-    color: #ffffff;
-    background: #FF6347;
+#calc_buttons .result {
+  color: #ffffff;
+  background: #ff6347;
 }
 
-#calc_buttons button:hover{
-    background: #d4d3d5;
-    color: #101010;
-    box-shadow: none;
-    transition: 300ms ease-in;
+#calc_buttons button:hover {
+  background: #d4d3d5;
+  color: #101010;
+  box-shadow: none;
+  transition: 300ms ease-in;
 }
 
-#calc_buttons button:focus{
-    box-shadow: none;
-    background: #d4d3d5;
+#calc_buttons button:focus {
+  box-shadow: none;
+  background: #d4d3d5;
 }
 
-footer{
-    height: 2vh;
-    color: #ffffff;
-    margin-bottom: 10px;
-    font: italic 12px "PT Mono", monospace;
-    display: flex;
-    padding-right: 20px;
-    justify-content: flex-end;
-    align-items: center;
+footer {
+  height: 2vh;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font: italic 12px "PT Mono", monospace;
+  display: flex;
+  padding-right: 20px;
+  justify-content: flex-end;
+  align-items: center;
 }
